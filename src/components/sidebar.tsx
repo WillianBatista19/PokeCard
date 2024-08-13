@@ -9,7 +9,7 @@ interface SidebarProps {
 export const Sidebar: React.FC<SidebarProps> = ({ favorites, onClick }) => {
   return (
     <div className="w-64 h-full p-4 bg-gray-200">
-      <h2 className="text-xl font-bold">Favorites</h2>
+      <h2 className="text-xl font-bold">Favoritos</h2>
       <ul>
         {favorites.map(pokemon => (
           <li
